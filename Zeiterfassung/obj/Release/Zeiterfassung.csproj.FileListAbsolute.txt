@@ -1,0 +1,14 @@
+C:\Users\PARASIC\source\repos\Zeiterfassung\Zeiterfassung\bin\Release\Zeiterfassung.exe.config
+C:\Users\PARASIC\source\repos\Zeiterfassung\Zeiterfassung\bin\Release\Zeiterfassung.exe
+C:\Users\PARASIC\source\repos\Zeiterfassung\Zeiterfassung\bin\Release\Zeiterfassung.pdb
+C:\Users\PARASIC\source\repos\Zeiterfassung\Zeiterfassung\obj\Release\Zeiterfassung.csprojAssemblyReference.cache
+C:\Users\PARASIC\source\repos\Zeiterfassung\Zeiterfassung\obj\Release\Zeiterfassung.Form1.resources
+C:\Users\PARASIC\source\repos\Zeiterfassung\Zeiterfassung\obj\Release\Zeiterfassung.Properties.Resources.resources
+C:\Users\PARASIC\source\repos\Zeiterfassung\Zeiterfassung\obj\Release\Zeiterfassung.csproj.GenerateResource.cache
+C:\Users\PARASIC\source\repos\Zeiterfassung\Zeiterfassung\obj\Release\Zeiterfassung.csproj.CoreCompileInputs.cache
+C:\Users\PARASIC\source\repos\Zeiterfassung\Zeiterfassung\obj\Release\Zeiterfassung.exe
+C:\Users\PARASIC\source\repos\Zeiterfassung\Zeiterfassung\obj\Release\Zeiterfassung.pdb
+C:\Users\PARASIC\source\repos\Zeiterfassung\Zeiterfassung\bin\Release\Zeiterfassung.exe.manifest
+C:\Users\PARASIC\source\repos\Zeiterfassung\Zeiterfassung\bin\Release\Zeiterfassung.application
+C:\Users\PARASIC\source\repos\Zeiterfassung\Zeiterfassung\obj\Release\Zeiterfassung.exe.manifest
+C:\Users\PARASIC\source\repos\Zeiterfassung\Zeiterfassung\obj\Release\Zeiterfassung.application
