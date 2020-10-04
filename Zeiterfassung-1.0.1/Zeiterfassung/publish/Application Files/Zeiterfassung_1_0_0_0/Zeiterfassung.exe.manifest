@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Zeiterfassung.exe" version="1.0.0.0" publicKeyToken="15a4444dc0af8650" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Zeiterfassung" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Zeiterfassung.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC-Manifestoptionen
+          Wenn Sie die Zugangsebene für das Windows-Benutzerkonto ändern möchten, ersetzen Sie den 
+          requestedExecutionLevel-Knoten durch eines der folgenden Elemente.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Löschen Sie den requestedExecutionLevel-Knoten, wenn Sie 
+         zum Gewährleisten der Abwärtskompatibilität die Datei- und Registrierungsvirtualisierung verwenden möchten.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Zeiterfassung.exe" size="12200">
+      <assemblyIdentity name="Zeiterfassung" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vvVgeM+anBmUc+asSwFAzi+oYnmmnZ9mMFXUQfofJCM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Zeiterfassung.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=EMEA\PARASIC" issuerKeyHash="dd7d5febba2d56f455563b3b3e07dc7ee93c87e2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Pn325N/uhRjEeZR84i2T3yE/p2MRyyvpBjT/4bULozI=</DigestValue></Reference></SignedInfo><SignatureValue>JmfwkLMaqwsACCNk8a58IqPWtX7RP4gEC+jf16DqpiT2x5sYpE+vhaQcyd36fQGK6AJbTEC6vC/mthU6pvOgzLySgO03/4diXrw6bl4Ml2dWeE4AfWtQRON6vDX7//rDZLYuh2Aq8Unj+E4SgfMNf9wGLyL8zWxevJzvT8Z5v+s=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>va8t6LUxa0P1GKXnWlbap2KzFRx41CSRLLYY+W6lajE/tRe/Fvk/R/xeUsEWoIGCG0HDWGclx2UmKbWY8BBMMpg0YpqfKjPSNMwbNTU4S+oIE7m1E3PzjmfbQuwbLhi5R+sxK3OXZlS/fbZ1StJWapB+wtHO/CObOi0rF7HbckU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="32a30bb5e1ff3406e92bcb1163a73f21df932de27c9479c41885eedfe4f67d3e" Description="" Url=""><as:assemblyIdentity name="Zeiterfassung.exe" version="1.0.0.0" publicKeyToken="15a4444dc0af8650" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=EMEA\PARASIC</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>in+jbcd9q3hbqT/EzFzYGOZUxUTApGAmbkhcAYH17tU=</DigestValue></Reference></SignedInfo><SignatureValue>q95BsI3H5fwawsIkitoCe+/oiai2aWuh5stSfzbJ7AmyEEltZ6+xZW9WuatrLzVd+UqFpeqLneEZCaNhrc7xIe9znyVdLndU+MB1QydwcgsOzJrCIDzMKekXKwqUyg85oJPN6VvBkU7xr5ZWlkUOnT8XAS6a/CdjaXGc0ZZDyuw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>va8t6LUxa0P1GKXnWlbap2KzFRx41CSRLLYY+W6lajE/tRe/Fvk/R/xeUsEWoIGCG0HDWGclx2UmKbWY8BBMMpg0YpqfKjPSNMwbNTU4S+oIE7m1E3PzjmfbQuwbLhi5R+sxK3OXZlS/fbZ1StJWapB+wtHO/CObOi0rF7HbckU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQJYEso/N2TpBOGYvriEeo7zANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgARQBNAEUAQQBcAFAAQQBSAEEAUwBJAEMwHhcNMjAwOTIzMDc1MjQ0WhcNMjEwOTIzMTM1MjQ0WjAjMSEwHwYDVQQDHhgARQBNAEUAQQBcAFAAQQBSAEEAUwBJAEMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL2vLei1MWtD9Ril51pW2qdisxUceNQkkSy2GPlupWoxP7UXvxb5P0f8XlLBFqCBghtBw1hnJcdlJim1mPAQTDKYNGKanyoz0jTMGzU1OEvqCBO5tRNz845n20LsGy4YuUfrMStzl2ZUv322dUrSVmqQfsLRzvwjmzotKxex23JFAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAsk2fVhY6qb+eLqKQl4M9bRMwrTRHaFT4bnrbUXkkw28nwXqAKlXmzhuLUkcnCaJ8c0au9YK4gQIfEW41VaQ1nWMo72ajyjUFkqcwfoDC/UdpOmrXH6uTQLibAxLKExpun6pgAEn3UGcg5EiSVS2OO6kzCGYElkuB1f6Lh04wk9k=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
